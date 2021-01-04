@@ -1,6 +1,4 @@
 'use strict';
-
-
 const supertest  = require("supertest"); // supertest is a framework that allows to easily test web apis
 const app = require("../../lib/base_routes"); //import file we are testing
 const request = supertest(app);
