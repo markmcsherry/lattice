@@ -1,0 +1,36 @@
+{
+  "name": "lattice-core",
+  "version": "0.0.1",
+  "description": "Lattic Core",
+  "author": "Mark McSherry <mark.mcsherry@gmail.com>",
+  "homepage": "https://github.com/markmcsherry/lattice/tree/master/packages/lattice-core#readme",
+  "license": "MIT",
+  "main": "lib/server.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markmcsherry/lattice.git"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node lib/server.js"
+  },  
+  "bugs": {
+    "url": "https://github.com/markmcsherry/lattice/issues"
+  },
+  "dependencies": {
+    "config": "^3.3.3",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "supertest": "^6.0.1"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "lattice-form",
+  "version": "0.0.1",
+  "description": "Lattic Form handeling module",
+  "author": "Mark McSherry <mark.mcsherry@gmail.com>",
+  "homepage": "https://github.com/markmcsherry/lattice/tree/master/packages/lattice-form#readme",
+  "license": "MIT",
+  "main": "lib/server.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markmcsherry/lattice.git"
+  },
+  "scripts": {
+    "test": "echo \"Warn: no tests\" && exit 0"
+  },
+  "bugs": {
+    "url": "https://github.com/markmcsherry/lattice/issues"
+  }
+}

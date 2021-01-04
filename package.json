@@ -1,0 +1,22 @@
+{
+  "name": "lattice",
+  "version": "0.0.1",
+  "description": "Lattic Mono-Repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "lerna run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markmcsherry/lattice.git"
+  },
+  "author": "Mark McSherry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markmcsherry/lattice/issues"
+  },
+  "homepage": "https://github.com/markmcsherry/lattice#readme",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}

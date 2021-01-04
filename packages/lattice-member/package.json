@@ -1,0 +1,26 @@
+{
+  "name": "lattice-member",
+  "version": "0.0.1",
+  "description": "Lattice Membership module",
+  "author": "Mark McSherry <mark.mcsherry@gmail.com>",
+  "homepage": "https://github.com/markmcsherry/lattice/tree/master/packages/lattice-member#readme",
+  "license": "MIT",
+  "main": "lib/server.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markmcsherry/lattice.git"
+  },
+  "scripts": {
+    "test": "echo \"Warn: no tests\" && exit 0"
+  },
+  "bugs": {
+    "url": "https://github.com/markmcsherry/lattice/issues"
+  }
+}
