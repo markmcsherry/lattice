@@ -1,6 +1,6 @@
 'use strict';
 
-describe("Core Server tests", () => {
+describe("Doc Server tests", () => {
     test('do something', () => {
       expect(true).toBe(true);
     });
